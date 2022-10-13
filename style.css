@@ -89,3 +89,13 @@
 .product_text > .container {
   max-width: 40ch;
 }
+
+@media (max-width: 750px) {
+  #woman,
+  #man {
+    height: 50vh;
+  }
+  #contact_form .container {
+    max-width: 90vw;
+  }
+}
